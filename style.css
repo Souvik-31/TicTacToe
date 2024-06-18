@@ -80,3 +80,30 @@ h1{
     display: none;
     
 }
+
+@media(max-width:480px){
+
+    .game{
+        height: 40vh;
+        width: 40vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+    }
+    
+    .box{
+        height: 10vh;
+        width: 10vh;
+
+    }
+
+    #reset-btn{
+        margin-top: 50px;
+    }
+
+    .container{
+        margin-top: 35px;
+    }
+}
