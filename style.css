@@ -81,21 +81,24 @@ h1{
     
 }
 
-@media(max-width:480px){
+@media(max-width:610px){
 
+    .msg-container{
+        height: 150vmin;
+    }
     .game{
         height: 40vh;
         width: 40vh;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
 
     }
     
     .box{
-        height: 10vh;
-        width: 10vh;
+        height: 12vh;
+        width: 12vh;
 
     }
 
@@ -104,6 +107,6 @@ h1{
     }
 
     .container{
-        margin-top: 35px;
+        margin-top: 15px;
     }
 }
